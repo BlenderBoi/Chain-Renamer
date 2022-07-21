@@ -1,7 +1,10 @@
 # Chain-Renamer
 
-## IMPORTANT: This Addon is No Longer Being Maintained By Me, You Are Free to Fork, Maintain, or Contribute to this. 
+## IMPORTANT: 
 
+This Addon is No Longer Being Maintained By Me, You Are Free to Fork, Maintain, or Contribute to this. 
+
+## About Chain Renamer
 
 This Add-on is a simple renaming tool that helps you to organize your scene by renaming your object or bones. It renames all the child of the active object. Chain rename 1.0 can help you save time by name all the child object numbered in a very neat manner. 
 
