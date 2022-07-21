@@ -1,6 +1,7 @@
 # Chain-Renamer
 
-## This Addon Is No Longer Being Maintained By Me, Feel Free to Fork, Maintin or Contribute to this addon
+## IMPORTANT: This Addon is No Longer Being Maintained By Me, You Are Free to Fork, Maintain, or Contribute to this. 
+
 
 This Add-on is a simple renaming tool that helps you to organize your scene by renaming your object or bones. It renames all the child of the active object. Chain rename 1.0 can help you save time by name all the child object numbered in a very neat manner. 
 
@@ -12,41 +13,41 @@ Chain Renamer 1.0 is designed to be simple, and easy to use, instead of setting 
 
 It is best used for renaming things like branches, fingers, hairs and tail. 
 
-Features:
+## Features:
 
-    Rename all children of an object or bone in the scene.
+Rename all children of an object or bone in the scene.
 
 
-How to use:
+## How to use:
 
 Press SHIFT-F and put in the name you want to rename
 
 Alternately, you can find the operator in:
 
-Object Mode =             View 3D -> Object -> Chain Rename
+Object Mode
+View 3D -> Object -> Chain Rename
 
-Pose Mode =                 View 3D -> Pose -> Chain Rename
+Pose Mode
+View 3D -> Pose -> Chain Rename
 
 Armature Edit Mode = View 3D -> Armature -> Chain Rename
 
 
-
-
-Chain Renamer Documentation
+# Chain Renamer Documentation
 
 To use Chain renamer, first select the parent of the child you want to rename, make sure that it is an active object, and press Shift F to activate the tool. 
 
 You can also find Chain Renamer in:
 
-Object Mode
+## Object Mode
 
 View 3D -> Object -> Chain Rename
 
-Pose Mode
+## Pose Mode
 
 View 3D -> Pose -> Chain Rename
 
-Armature Edit Mode
+## Armature Edit Mode
 
 View 3D -> Armature -> Chain Rename
 
@@ -78,45 +79,45 @@ Bone_Branch
 
                          02_02_Bone_Branch_02
 
-Options:
+## Options:
 
-Rename Active
+### Rename Active
 
 Check this if you want to rename the parent or the active object. 
 
 
-Limit Chain
+### Limit Chain
 
 Limit how many "levels" or "generation" of children that will be renamed. 
 
 
-Seperator
+### Seperator
 
 Something to put in between the name. Options are _underscore, .period, -dash and  empty space. 
 
 You can use Custom Separator by checking the Custom Checkbox and input the Separator desired. 
 
 
-Sibling Prefix
+### Sibling Prefix
 
 If Sibling is present, add a prefix to the sibling number. 
 
 
-Group
+### Group
 
 Only add the sibling prefix once instead of adding to evert sibling number. 
 
 
-Position
+### Position
 
 The position of the Sibling Number and Sibling Prefix, whether before the base name, or at the end of the name. 
 
 
-Start From
+### Start From
 
 Choose what number to start from. 
 
 
-Padding
+### Padding
 
 Pad the number, think of it as how many 0 you want to include in the number. 
